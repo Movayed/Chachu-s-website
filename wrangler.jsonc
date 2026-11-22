@@ -1,0 +1,11 @@
+// Local workerd (Miniflare) test config for the static site.
+// Used only for `wrangler dev`; Freebuff Sites builds from sites-manifest.json.
+{
+  "name": "chachu-website-local-test",
+  "main": "site-worker.js",
+  "compatibility_date": "2026-11-21",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  }
+}
